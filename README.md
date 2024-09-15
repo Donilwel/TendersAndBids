@@ -560,7 +560,7 @@ Response:
 # Параметры файла .env:
 
 - SERVER_ADDRESS=0.0.0.0:8080
-- POSTGRES_HOST=postgres
+- POSTGRES_HOST=localhost
 - POSTGRES_PORT=5432
 - POSTGRES_USERNAME=postgres
 - POSTGRES_PASSWORD=123456
