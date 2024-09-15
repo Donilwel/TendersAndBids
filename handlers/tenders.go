@@ -126,10 +126,10 @@ func SetStatusTenderHandler(w http.ResponseWriter, r *http.Request) {
 
 		}
 
-		if len(bids) == 0 {
-			http.Error(w, "Предложения не найдены для этого тендера.", http.StatusNotFound)
-			return
-		}
+		// if len(bids) == 0 {
+		// 	http.Error(w, "Предложения не найдены для этого тендера.", http.StatusNotFound)
+		// 	return
+		// }
 		for _, bid := range bids {
 			if bid.Status != models.CANCELED && bid.Status != models.PUBLISHEDBid {
 				bid.Status = models.CANCELED
