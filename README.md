@@ -571,6 +571,7 @@ Response:
 # Swagger
 - Локально показывает все верно, на всякий случай путь к `main` -> `cmd/server/main.go`.
 - Для взаимодействия со Swagger'ом необходимо прописать `swag init -g (путь к main.go)`
+- Для запуска используйте http://localhost:8080/swagger/index.html
 
 
 # Версия приложения
